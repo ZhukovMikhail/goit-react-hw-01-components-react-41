@@ -1,13 +1,7 @@
 import styled from '@emotion/styled';
-// import data from '../../data/data.json'
 
-export const StyleContainer = styled.div`
-  background-color: #ccc;
-  display: flex;
-`;
 export const StyleStatistics = styled.div`
   background-color: #fff;
-
   width: 300px;
   background-color: #fff;
   display: flex;

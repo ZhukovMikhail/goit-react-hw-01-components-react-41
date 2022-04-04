@@ -1,9 +1,5 @@
 import styled from '@emotion/styled';
-export const StyleContainer = styled.div`
-  background-color: #ccc;
-  display: flex;
-  margin-top: 20px;
-`;
+
 export const StyleProfile = styled.div`
   width: 300px;
   background-color: #fff;
