@@ -1,7 +1,8 @@
 import styled from '@emotion/styled';
 
 export const StyleTable = styled.table`
-  margin: 0 auto;s
+  margin: 0 auto;
+  margin-top: 20px;
   justify-content: center;
   background-color: #fff;
   box-shadow: 4px 3px 6px 4px rgba(155, 155, 155, 0.75);

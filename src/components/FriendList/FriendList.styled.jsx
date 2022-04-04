@@ -45,6 +45,6 @@ export const StyleStatus = styled.p`
   margin-right: 10px;
   align-content: center;
   background-color: ${props => {
-    return props.status ? 'red' : 'green';
+    return props.status ? 'green' : 'red';
   }};
 `;
