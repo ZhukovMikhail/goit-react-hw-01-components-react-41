@@ -26,7 +26,6 @@ export const StyleThead = styled.thead`
   outline: solid 1px grey;
 `;
 export const StyleTh = styled.th`
-  composes: td;
   color: white;
   font-size: 15px;
 `;

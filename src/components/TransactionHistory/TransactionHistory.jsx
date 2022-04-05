@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import {
   StyleTable,
   StyleTd,
@@ -29,4 +31,15 @@ export const TransactionHistory = ({ items }) => {
       </tbody>
     </StyleTable>
   );
+};
+TransactionHistory.propTypes = {
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      type: PropTypes.oneOf(['invoice', 'payment', 'withdrawal', 'deposit'])
+        .isRequired,
+      amount: PropTypes.string.isRequired,
+      currency: PropTypes.string.isRequired,
+    }).isRequired,
+  ).isRequired,
 };
